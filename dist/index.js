@@ -4964,8 +4964,7 @@ function (_React$Component) {
       disabled && (active = false);
       theme === 'light' && (className = ' light-theme ' + className);
       return external_react_default.a.createElement("div", {
-        className: 'bf-dropdown ' + (active ? 'active ' : '') + (disabled ? 'disabled ' : '') + className,
-        style:{width:'100%'}
+        className: 'bf-dropdown ' + (active ? 'active ' : '') + (disabled ? 'disabled ' : '') + className
       }, htmlCaption ? external_react_default.a.createElement("button", {
         type: "button",
         className: "dropdown-handler",
